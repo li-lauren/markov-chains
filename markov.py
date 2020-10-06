@@ -63,7 +63,7 @@ def make_text(chains, n):
     words = []
 
     # your code goes here
-    link = ('a', 'a')
+    link = ('x', 'x')
     while(not link[0][0].isupper()):
         link = choice(list(chains.keys()))
     words.extend([word for word in link])
